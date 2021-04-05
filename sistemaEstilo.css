@@ -6,9 +6,8 @@ body{
     align-items: center;
     margin-top: 50vh; 
 }
-.solar-system{
-    margin-top: 12px;
-    margin-left: 80px;
+.sistema{
+    margin-left: 600px;
     position: absolute;
 }
 @keyframes translation{
@@ -49,7 +48,7 @@ body{
     height: 210px;
     border-radius: 200px;
     border:2px solid #001636;
-    animation:translation 6s infinite linear;
+    animation:translation 8s infinite linear;
     list-style: none;
     margin-left: -50px;
     margin-top: -58px;
@@ -69,7 +68,7 @@ body{
     height: 270px;
     border-radius: 100%;
     border:2px solid #001636;
-    animation:translation 8s infinite linear;
+    animation:translation 12s infinite linear;
     list-style: none;
     margin-left: -80px;
     margin-top: -88px;
@@ -89,7 +88,7 @@ body{
     height: 245px;
     border-radius: 100%;
     border:2px solid #001636;
-    animation:translation 14s infinite linear;
+    animation:translation 16s infinite linear;
     list-style: none;
 }
 #marte p{
@@ -100,7 +99,80 @@ body{
     display:block;
     position:absolute;  
 }
+#jupiter{
+    position: absolute;
+    width: 445px;
+    height: 445px;
+    border-radius: 500px;
+    border:2px solid #001636;
+    animation:translation 20s infinite linear;
+    list-style: none;
+}
+#jupiter p{
+    width: 30px;
+    height: 30px;
+    background-image: radial-gradient( rgb(255, 138, 42),rgb(165, 91, 31), rgb(107, 48, 1));
+    border-radius: 20px;
+    display:block;
+    position:absolute;  
+}
+#saturno{
+    position:absolute;
+    width: 550px;
+    height: 550px;
+    border-radius:500px;
+    border:2px solid #001636;
+    animation: translation 23s infinite linear;
+    list-style: none;
+}
+#saturno p{
+    width:25px;
+    height:25px;
+    background-image: radial-gradient(rgb(222,222,222),rgb(90,87,23));
+    border-radius:50px;
+    display:block;
+    position: absolute;
+}
+#urano{
+    position:absolute;
+    width: 650px;
+    height: 650px;
+    border-radius:600px;
+    border:2px solid #001636;
+    animation: translation 26s infinite linear;
+    list-style: none;
+}
+#urano p{
+    width: 22px;
+    height: 22px;
+    background-image: radial-gradient(#cbf1f4,rgb(163, 228, 240),rgb(133, 224, 240));
+    border-radius:50px;
+    display:block;
+    position: absolute;
+}
+#neturno{
+    position:absolute;
+    width: 750px;
+    height: 750px;
+    border-radius:600px;
+    border:2px solid #001636;
+    animation: translation 28s infinite linear;
+    list-style: none;
+}
+#neturno p{
+    width: 22px;
+    height: 22px;
+    background-image: radial-gradient(#0400ff,#0300b4,#02006d);
+    border-radius:50px;
+    display:block;
+    position: absolute;
+
+}
 @media screen and (max-width: 10000px){
+    .sistema {
+        margin-left: 200px;
+        background-color: red;
+    }
     #sol {
         width: 90px;
         height: 90px;
@@ -143,5 +215,48 @@ body{
         height: 25px;
         margin-left: 70px;
     }
-
+    #jupiter {
+        width: 370px;
+        height: 370px;
+        margin-left: -130px;
+        margin-top: -140px;
+    }
+    #jupiter p {
+        width: 25px;
+        height: 25px;
+        margin-left: 100px;
+    }
+    #saturno {
+        width: 430px;
+        height: 430px;
+        margin-top: -170px;
+        margin-left: -160px;
+    }
+    #saturno p{
+        width: 25px;
+        height: 25px;
+        margin-left: 130px;
+    }
+    #urano {
+        width: 500px;
+        height: 500px;
+        margin-left: -200px;
+        margin-top: -210px;
+    }
+    #urano p{
+        width: 25px;
+        height: 25px;
+        margin-left: 150px;
+    }
+    #neturno {
+        width: 570px;
+        height: 570px;
+        margin-left: -240px;
+        margin-top: -250px;
+    }
+    #neturno p{
+        width: 25px;
+        height: 25px;
+        margin-left: 190px;
+    }
 }
