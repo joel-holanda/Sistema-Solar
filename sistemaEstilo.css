@@ -5,10 +5,29 @@ body{
     display: flex;
     align-items: center;
     margin-top: 50vh; 
+    background-color: rgb(3, 3, 14);
 }
 .sistema{
     margin-left: 600px;
     position: absolute;
+}
+div#informacao {
+    width: 500px;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 200px;
+    background-color: rgba(15, 39, 255, 0.7);
+    position: absolute;
+    opacity: 0;
+}
+button {
+    margin-top: 250px;
+    margin-left: 230px;
+    opacity: 0;
+}
+p {
+    color: red;
+    text-align: center;
 }
 @keyframes translation{
     from{ transform: rotate(0deg);}
@@ -29,7 +48,7 @@ body{
     height: 140px;
     border-radius: 200px;
     border:2px solid #001636;
-    animation:translation 2s infinite linear;
+    animation:translation 20s infinite linear;
     list-style: none;
     margin-top: -25px;
     margin-left: -19px;
