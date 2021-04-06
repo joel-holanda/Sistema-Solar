@@ -8,16 +8,28 @@
     <link rel="stylesheet" href="sistemaEstilo.css">
 </head>
 <body>
+        <div id="informacao">
+            <p id="nome">Nome</p>
+            <p id="posicao">Qual a posição em relação ao sol?</p>
+            <p id="temperatura">Temperatura</p>
+            <button id="voltar" onclick="atras()">Voltar</button>
+        </div>
     <section class="sistema">
-        <ul><li id="sol"><p><p></p></li></ul>
-        <ul><li id="mercurio"><p></p></li></ul>
-        <ul><li id="venus"><p></p></li></ul>
-        <ul><li id="terra"><p></p></li></ul>
-        <ul><li id="marte"><p></p></li></ul>
-        <ul><li id="jupiter"><p></p></li></ul>
-        <ul><li id="saturno"><p></p></li></ul>
-        <ul><li id="urano"><p></p></li></ul>
-        <ul><li id="neturno"><p></p></li></ul>
+
+
+        <ul><li id="sol"><p onclick="inforsol()"></p></li></ul>
+        <ul><li id="neturno"><p onclick="inforneturno()"></p></li></ul>
+        <ul><li id="urano"><p onclick="inforurano()"></p></li></ul>
+        <ul><li id="saturno"><p onclick="inforsaturno()"></p></li></ul>
+        <ul><li id="jupiter"><p onclick="inforjupiter()"></p></li></ul>
+        <ul><li id="marte"><p onclick="informarte()"></p></li></ul>
+        <ul><li id="terra"><p onclick="inforterra()"></p></li></ul>
+        <ul><li id="venus"><p onclick="inforvenus()"></p></li></ul>
+        <ul><li id="mercurio"><p onclick="informercurio()"></p></li></ul>
+
+
     </section>
+
+    <script src="sistemaAcao.js"></script>
 </body>
 </html>
