@@ -5,7 +5,8 @@ var fundo = document.getElementById('informacao');
 var voltar = document.getElementById('voltar');
 var texto = document.getElementById('texto');
 
-alert('Ola, Seja Bem-Vindo ao Sistema Solar. Quando voce começar a ver os planetas diminua ou aumente a tela para ter uma melhor experiencia');
+alert('Ola, seja bem-vindo ao Sistema Solar. Quando você começar a ver os planetas diminua ou aumente a tela para ter uma melhor experiência');
+alert('Click nos planetas para ter mais informações sobre ele'); 
 
 
 function informercurio() {
